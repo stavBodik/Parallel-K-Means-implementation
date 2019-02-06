@@ -1,0 +1,12 @@
+Minimum distance : 439.956822
+
+Occurred at time : 2.000000
+
+Centers of the clusters:
+
+277.878563,198.709737
+
+599.299219,499.504025
+
+163.661317,648.052489
+

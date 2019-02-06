@@ -1,0 +1,24 @@
+﻿Build started 11/17/2016 7:21:29 PM.
+     1>Project "D:\Parallel_implementation_K_Means\Parallel_implementation_K_Means\Parallel_implementation_K_Means.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\Parallel_implementation_K_Means.unsuccessfulbuild".
+       AddCudaCompileDeps:
+       Skipping target "AddCudaCompileDeps" because all output files are up-to-date with respect to the input files.
+       AddCudaCompilePropsDeps:
+       Skipping target "AddCudaCompilePropsDeps" because all output files are up-to-date with respect to the input files.
+       CudaBuild:
+       Skipping target "CudaBuild" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\MPICH2\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp
+         Main.cpp
+     1>d:\parallel_implementation_k_means\parallel_implementation_k_means\main.cpp(343): error C2065: 'points' : undeclared identifier
+     1>d:\parallel_implementation_k_means\parallel_implementation_k_means\main.cpp(415): error C2664: 'memcpy' : cannot convert parameter 1 from 'POINT_S' to 'void *'
+                 No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+     1>d:\parallel_implementation_k_means\parallel_implementation_k_means\main.cpp(448): error C2440: 'initializing' : cannot convert from 'double *' to 'double []'
+                 There are no conversions to array types, although there are conversions to references or pointers to arrays
+     1>d:\parallel_implementation_k_means\parallel_implementation_k_means\main.cpp(575): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>Done Building Project "D:\Parallel_implementation_K_Means\Parallel_implementation_K_Means\Parallel_implementation_K_Means.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.17

@@ -1,0 +1,1 @@
+mpiexec -n 2 "C:\Parallel_implementation_K_Means\x64\Debug\Parallel_implementation_K_Means.exe"

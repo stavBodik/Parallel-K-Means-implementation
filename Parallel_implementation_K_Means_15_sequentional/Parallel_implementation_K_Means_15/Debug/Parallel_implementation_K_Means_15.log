@@ -1,0 +1,9 @@
+﻿  Main.cpp
+c:\studies\mpimpi\final_project\parallel_implementation_k_means_15\parallel_implementation_k_means_15\main.cpp(78): warning C4474: 'fprintf' : too many arguments passed for format string
+  c:\studies\mpimpi\final_project\parallel_implementation_k_means_15\parallel_implementation_k_means_15\main.cpp(78): note: placeholders and their parameters expect 0 variadic arguments, but 1 were provided
+c:\studies\mpimpi\final_project\parallel_implementation_k_means_15\parallel_implementation_k_means_15\main.cpp(81): warning C4477: 'fprintf' : format string '%lf' requires an argument of type 'double', but variadic argument 1 has type 'POINT_S'
+c:\studies\mpimpi\final_project\parallel_implementation_k_means_15\parallel_implementation_k_means_15\main.cpp(98): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\studies\mpimpi\final_project\parallel_implementation_k_means_15\parallel_implementation_k_means_15\main.cpp(107): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\studies\mpimpi\final_project\parallel_implementation_k_means_15\parallel_implementation_k_means_15\main.cpp(325): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  Parallel_implementation_K_Means_15.vcxproj -> C:\studies\mpimpi\final_project\Parallel_implementation_K_Means_15\Debug\Parallel_implementation_K_Means_15.exe
+  Parallel_implementation_K_Means_15.vcxproj -> C:\studies\mpimpi\final_project\Parallel_implementation_K_Means_15\Debug\Parallel_implementation_K_Means_15.pdb (Full PDB)
